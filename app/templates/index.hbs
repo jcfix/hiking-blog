@@ -1,12 +1,17 @@
-<div class="index-header">
-  <!-- <img class="header-img" src="https://static.pexels.com/photos/3951/landscape-nature-man-person.jpeg" alt="hiker in woods" /> -->
-</div>
-<div class="index-body">
-  <div class="row">
-    {{#each model as |post|}}
-      {{post-tile post=post update="update" destroyPost="destroyPost"}}
-    {{/each}}
+  <div class="index-header">
+    <!-- <div class="header-text">
+      <h1>GET OUT...</h1>
+      <h1>SIDE!</h1>
+    </div> -->
   </div>
+  <div class="container">
+    <div class="index-body">
+      <div class="row">
+        {{#each model as |post|}}
+        {{post-tile post=post update="update" destroyPost="destroyPost"}}
+        {{/each}}
+      </div>
 
-  {{new-post save2="save3"}}
-</div>
+      {{new-post save2="save3"}}
+    </div>
+  </div>
