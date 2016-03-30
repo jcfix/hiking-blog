@@ -26,3 +26,8 @@ nav ul li a:hover {
   margin-left: 2.5%;
   color: black !important;
 }
+
+.post-img {
+  max-width: 1000px;
+  max-height: 400px;
+}

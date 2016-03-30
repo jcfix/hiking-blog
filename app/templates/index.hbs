@@ -1,0 +1,15 @@
+<div class="index-header">
+  <h2>HEADLINE ARTICLES TO GO HERE</h2>
+</div>
+<div class="index-body">
+  <div class="row">
+    {{#each model as |post|}}
+    <div class="col-sm-4">
+      <img class="post-img" src="{{post.image}}" alt="stock photo">
+      <h5>{{post.title}}</h5>
+      <hr>
+      <h6>{{post.date}}</h6>
+    </div>
+    {{/each}}
+  </div>
+</div>
