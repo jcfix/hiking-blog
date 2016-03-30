@@ -5,12 +5,17 @@ nav {
   opacity: .98;
 }
 
+.nav-wrapper {
+  background-color: #807D45;
+}
+
+
 .blog-logo:hover {
   text-decoration: none;
 }
 
 nav ul li a {
-  color: #A2A2A2;
+  color: black;
   font-size: 11px;
   letter-spacing: 2px;
 }
@@ -22,12 +27,25 @@ nav ul li a:hover {
 
 .blog-logo {
   color: black;
+  /*font-weight: lighter;*/
   font-size: 30px;
   margin-left: 2.5%;
-  color: black !important;
+}
+
+.index-body {
+  margin-top: 10%;
 }
 
 .post-img {
   max-width: 1000px;
-  max-height: 400px;
+  max-height: 300px;
+}
+
+.col-sm-6 {
+  margin-bottom: 30px;
+}
+
+.contact {
+  text-align: center;
+  padding-top: 5em;
 }
