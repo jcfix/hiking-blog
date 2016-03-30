@@ -49,3 +49,11 @@ nav ul li a:hover {
   text-align: center;
   padding-top: 5em;
 }
+
+.newPostForm {
+  margin-bottom: 50px;
+}
+
+.saveNewPost {
+  margin-bottom: 50px;
+}
