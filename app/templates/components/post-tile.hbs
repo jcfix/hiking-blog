@@ -1,7 +1,9 @@
 <div class="col-sm-6">
-  <h5>{{post.title}}</h5>
-  <h6>{{post.date}}</h6>
-  <img class="post-img" src="{{post.image}}" alt="stock photo">
+  {{#link-to 'post' post.id}}
+    <h5>{{post.title}}</h5>
+    <h6>{{post.date}}</h6>
+    <img class="post-img" src="{{post.image}}" alt="stock photo">
+  {{/link-to}}
   <hr>
     {{update-post post=post update="update"}}
     <div class="delete-post">

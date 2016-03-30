@@ -8,10 +8,10 @@ export default Ember.Component.extend({
     },
     update(post) {
       var params = {
-        title: this.get('title') ? this.get('title'): post.get("title"),
+        title: this.get('title') ? this.get('title'): post.get('title'),
         date: this.get('date') ? this.get('date'): post.get('date'),
-        content: this.get('content') ? this.get('content'): post.get("content"),
-        image: this.get('image') ? this.get('image'): post.get("image"),
+        content: this.get('content') ? this.get('content'): post.get('content'),
+        image: this.get('image') ? this.get('image'): post.get('image'),
       };
       // debugger;
       this.set('updatePostForm', false);

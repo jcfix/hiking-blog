@@ -32,6 +32,17 @@ nav ul li a:hover {
   margin-left: 2.5%;
 }
 
+.index-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /*background-image: url('https://static.pexels.com/photos/3951/landscape-nature-man-person.jpeg') */
+
+  max-width: 100%;
+  max-height: 400px;
+
+}
+
 .index-body {
   margin-top: 10%;
 }
