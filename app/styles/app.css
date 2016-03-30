@@ -1,0 +1,28 @@
+/********************
+******** Navbar **********/
+nav {
+  /*background-color: #FEFEFE;*/
+  opacity: .98;
+}
+
+.blog-logo:hover {
+  text-decoration: none;
+}
+
+nav ul li a {
+  color: #A2A2A2;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+nav ul li a:hover {
+  color: black !important;
+  text-decoration: none;
+}
+
+.blog-logo {
+  color: black;
+  font-size: 30px;
+  margin-left: 2.5%;
+  color: black !important;
+}
