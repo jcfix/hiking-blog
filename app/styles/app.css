@@ -57,3 +57,8 @@ nav ul li a:hover {
 .saveNewPost {
   margin-bottom: 50px;
 }
+
+.deleteBtn {
+  margin-top: -88px;
+  float: right;
+}
