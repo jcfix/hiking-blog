@@ -12,9 +12,9 @@
           {{input value=comment id="comment" class="form-control"}}
         </div>
 
-        <button class="waves-effect waves-light btn saveNewComment"{{action 'save1'}}>Save</button>
+        <button class="waves-effect waves-green btn saveNewComment"{{action 'save1'}}>Save</button>
       </form>
     </div>
 {{else}}
-    <button class="waves-effect waves-light btn newCommentForm"{{action 'commentFormShow'}}>New Comment</button>
+    <button class="waves-effect waves-green btn newCommentForm"{{action 'commentFormShow'}}>New Comment</button>
 {{/if}}

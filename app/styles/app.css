@@ -87,3 +87,11 @@ nav ul li a:hover {
   margin-top: -88px;
   float: right;
 }
+
+.waves-effect.waves-green {
+  background-color: #4f4a33;
+}
+
+.waves-effect.waves-green:hover{
+  background-color: white;
+}
