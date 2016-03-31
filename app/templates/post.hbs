@@ -10,8 +10,9 @@
 
   <h4>Comments:</h4>
   {{#each model.comments as |comment|}}
+
   <div>
-    {{comment-detail comment=comment}}
+    {{comment-detail comment=comment update="update"}}
   </div>
   {{/each}}
 </div>
