@@ -8,8 +8,8 @@
   <div class="container">
     <div class="index-body">
       <div class="row">
-        {{#each model as |post|}}
-        {{post-tile post=post update="update" destroyPost="destroyPost"}}
+        {{#each model.posts as |post|}}
+          {{post-tile post=post update="update" destroyPost="destroyPost"}}
         {{/each}}
       </div>
 
