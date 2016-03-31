@@ -93,5 +93,6 @@ nav ul li a:hover {
 }
 
 .waves-effect.waves-green:hover{
-  background-color: white;
+  background-color: #c4c29b;
+  color:black;
 }
