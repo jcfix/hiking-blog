@@ -1,6 +1,6 @@
-// import Ember from 'ember';
-//
-// export default Ember.Component.extend({
+import Ember from 'ember';
+
+export default Ember.Component.extend({
 //
 //   actions: {
 //     save3(params) {
@@ -9,4 +9,4 @@
 //       this.transtitionTo('comment');
 //     },
 //   }
-// });
+});

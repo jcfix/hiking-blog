@@ -7,4 +7,11 @@
   <hr>
 
   {{new-comment post=model save2="save3"}}
+
+  <h4>Comments:</h4>
+  {{#each model.comments as |comment|}}
+  <div>
+    {{comment-detail comment=comment}}
+  </div>
+  {{/each}}
 </div>
